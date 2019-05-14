@@ -1,6 +1,6 @@
 const express = require('express');
 
-<<<<<<< HEAD
+
 // eslint-disable-next-line new-cap
 
 const router = express.Router();
@@ -8,7 +8,7 @@ const router = express.Router();
 const {check} = require('express-validator/check');
 
 app.listener(3000)
-=======
+
 router.post('/', [
     check('name').exists(),
     check('surname').exists(),
@@ -54,5 +54,5 @@ router.post('/', [
         });
   });
 app.listen(3000);
->>>>>>> feature_1
+
 module.exports = router;
