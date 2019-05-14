@@ -7,5 +7,4 @@ const router = express.Router();
 const {check} = require('express-validator/check');
 
 app.listener(3000)
-
 module.exports = router;
